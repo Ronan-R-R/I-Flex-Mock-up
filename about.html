@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Us | L-Flex SA</title>
-        <meta name="description" content="Manufacturing excellence since 1993.">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
-    </head>
-    
+<head>
+    <meta charset="UTF-8">
+    <title>About Us | L-Flex SA</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+</head>
 <body>
-    
     <header class="site-header">
         <div class="container header-inner">
-            <a href="index.html" class="logo">
-                <span class="logo-l">L-</span>FLEX
-            </a>
-            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
-                <span></span><span></span><span></span>
-            </button>
+            <a href="index.html" class="logo"><span>L-</span>FLEX</a>
+            <button class="mobile-menu-toggle"><span></span><span></span><span></span></button>
             <nav class="main-nav">
-                <ul><li><a href="index.html" >Home</a></li><li><a href="products.html" >Products</a></li><li><a href="industries.html" >Industries</a></li><li><a href="about.html" class="active">About</a></li><li><a href="resources.html" >Resources</a></li><li><a href="contact.html" >Contact</a></li></ul>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
             <a href="contact.html" class="btn btn-primary sticky-cta">Request Quote</a>
         </div>
     </header>
-    <div class="mobile-nav-overlay"></div>
-    
+
     <main>
         <div class="page-header">
             <div class="container">
-                <h1>About Us</h1>
-                <p>Manufacturing excellence since 1993.</p>
+                <h1>About L-Flex</h1>
+                <p>Over 30 years of excellence in rubber hose manufacturing.</p>
             </div>
         </div>
+
         <section class="section">
             <div class="container">
-                <p>L-Flex is a leader in rubber hose manufacturing...</p>
+                <div class="grid-2">
+                    <div class="about-text">
+                        <h2>Our Story</h2>
+                        <p><strong>L-Flex</strong> was established in 1993, manufacturing rubber hoses and providing technical service in product design. Over the years, we have been actively involved in the Rubber Industry in various disciplines and technical work studies.</p>
+                        <p>This has afforded us an experiential advantage in Material Handling and Product Application, allowing us to deliver solutions that last longer in the field.</p>
+                        
+                        <h3 class="mt-2">Our Mission</h3>
+                        <p>To supply tailor-made solutions for your rubber hose requirements with a focus on quality, safety, and rapid delivery.</p>
+
+                        <div class="stat-grid">
+                            <div class="stat-box">
+                                <span class="stat-number">1993</span><span class="stat-label">Established</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">100%</span><span class="stat-label">SA Made</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">24h</span><span class="stat-label">Response</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80" alt="Industrial Factory" style="border-radius: var(--radius); box-shadow: var(--shadow-lg);">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    
+
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
@@ -53,35 +72,31 @@
                 </div>
                 <div class="footer-col">
                     <h3>Quick Links</h3>
-                    <ul>
+                    <ul class="footer-links-ul">
                         <li><a href="products.html">All Products</a></li>
                         <li><a href="industries.html">Industries Served</a></li>
-                        <li><a href="contact.html">Request a Quote</a></li>
+                        <li><a href="about.html">Company Profile</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h3>Contact</h3>
-                    <p>Benoni, Gauteng, South Africa</p>
-                    <p><a href="tel:+27114226110">+27 11 422 6110</a></p>
-                    <p><a href="mailto:admin@lflex.co.za">admin@lflex.co.za</a></p>
+                    <p class="footer-contact-address">No 30 Pittsburg St, Apex Industrial<br>Benoni, South Africa</p>
+                    <div class="contact-row">
+                        <a href="mailto:admin@lflex.co.za">admin@lflex.co.za</a>
+                        <a href="tel:+27114226110">+27 11 422 6110</a>
+                        <a href="https://facebook.com" target="_blank" style="margin-top: 0.5rem; color: #cbd5e1; font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.791-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            Facebook
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 L-Flex. All rights reserved.</p>
-            </div>
         </div>
-        
-        <!-- Back to Top -->
-        <button id="backToTop" title="Back to Top">↑</button>
-        
-        <!-- Mobile Floating Action Button (FAB) -->
-        <a href="contact.html" class="mobile-fab" title="Get a Quote">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-            </svg>
-        </a>
+        <div class="footer-bottom"><div class="container"><p>&copy; 2026 L-Flex. All rights reserved.</p></div></div>
+        <button id="backToTop" class="floating-btn" title="Back to Top">↑</button>
+        <a href="contact.html" id="contactFab" class="floating-btn" title="Contact Us">✉</a>
     </footer>
     <script src="js/scripts.js"></script>
-    
 </body>
 </html>
